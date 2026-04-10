@@ -1,10 +1,10 @@
-# 🌿 Plant Leaf Disease Detection using CNN
+# Plant Leaf Disease Detection using CNN
 
 A deep learning project that classifies plant leaf images into three categories — **Healthy**, **Powdery Mildew**, and **Rust** — using a Convolutional Neural Network (CNN) built with TensorFlow/Keras.
 
 ---
 
-## 📌 Overview
+## Overview
 
 Plant diseases cause significant agricultural losses worldwide. Early and accurate detection can help farmers take timely action. This project uses image classification via CNN to automatically identify the health condition of plant leaves from photos.
 
@@ -15,7 +15,7 @@ Plant diseases cause significant agricultural losses worldwide. Early and accura
 
 ---
 
-## 📁 Dataset Structure
+## Dataset Structure
 
 ```
 Plant disease recognition dataset/
@@ -37,7 +37,7 @@ Plant disease recognition dataset/
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 A custom CNN built using Keras Sequential API:
 
@@ -58,7 +58,7 @@ A custom CNN built using Keras Sequential API:
 
 ---
 
-## 📊 Training Results
+## Training Results
 
 | Epoch | Train Accuracy | Val Accuracy |
 |---|---|---|
@@ -84,7 +84,7 @@ Model achieved **~92.9% training accuracy** and **~90% validation accuracy** in 
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Clone the repository
 ```bash
@@ -131,19 +131,9 @@ Output: `Rust` (confidence: 98.5%)
 
 ---
 
-## 🔮 Future Improvements
-
-- Add more disease classes (Blight, Scab, etc.)
-- Deploy as a web app using Flask or Streamlit
-- Experiment with transfer learning (ResNet, EfficientNet) for higher accuracy
-- Add Grad-CAM visualization to highlight disease regions
 
 ---
 
-## 👤 Author
-
-**Aadipta** — B.Tech CSE, Amity University Kolkata  
-[GitHub](https://github.com/YOUR_USERNAME) | [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
 
 ---
 
